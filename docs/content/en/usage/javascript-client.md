@@ -9,7 +9,7 @@ category: 'Usage'
 
 Ghost provides a flexible promise-based JavaScript library for accessing the Content API. The library can be used in any JavaScript project, client or server side and abstracts away all the pain points of working with API data.
 
-## Example
+## website
 
 ```vue
 <script lang="ts">
@@ -107,7 +107,7 @@ this.$ghost.posts.browse({ filter: 'featured:true' });
 
 Incorrectly formatted filters will result in a 400 Bad Request Error. Filters that don’t match any data will return an empty array.
 
-### Example
+### website
 
 ```vue
 <script lang="ts">

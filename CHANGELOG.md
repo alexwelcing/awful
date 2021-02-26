@@ -48,7 +48,7 @@ All notable changes to this project will be documented in this file. See [standa
 ### Chore
 
 * **deps:** update @tryghost/content-api ([4e197ce](https://github.com/Gomah/nuxt-ghost/commit/4e197cebb12f5987f6c22c373fd7108177fb4433))
-* **example:** use typescript ([3fa0815](https://github.com/Gomah/nuxt-ghost/commit/3fa0815d367d597163000d3bd6aa9c023cdd4104))
+* **website:** use typescript ([3fa0815](https://github.com/Gomah/nuxt-ghost/commit/3fa0815d367d597163000d3bd6aa9c023cdd4104))
 
 ### [1.0.7](https://github.com/Gomah/nuxt-ghost/compare/v1.0.6...v1.0.7) (2020-10-29)
 
@@ -100,6 +100,6 @@ All notable changes to this project will be documented in this file. See [standa
 ### Chore
 
 * **deps:** bump dependencies ([f2fd710](https://github.com/Gomah/nuxt-ghost/commit/f2fd71052093bc932fb613c191d369accef7d61f))
-* **example:** add _redirects ([ebac4e5](https://github.com/Gomah/nuxt-ghost/commit/ebac4e56db4fa9250c299fec719c97d4b7b59e62))
+* **website:** add _redirects ([ebac4e5](https://github.com/Gomah/nuxt-ghost/commit/ebac4e56db4fa9250c299fec719c97d4b7b59e62))
 
 ## 1.0.0 (2019-12-29)

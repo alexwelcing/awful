@@ -1,4 +1,4 @@
-const config = require('../../example/nuxt.config.js');
+const config = require('../../website/nuxt.config.js');
 const request = require('request-promise-native');
 const { Nuxt, Builder } = require('nuxt');
 

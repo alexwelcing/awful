@@ -10,15 +10,21 @@ module.exports = {
         [
             '@nuxt/typescript-build',
             {
-                typeCheck: false,
+                _typeCheck: false,
+                get typeCheck() {
+                    return this._typeCheck;
+                },
+                set typeCheck(value) {
+                    this._typeCheck = value;
+                },
                 ignoreNotFoundWarnings: true,
             },
         ],
     ],
     modules: ['../lib/module', 'nuxt-buefy'],
     ghost: {
-        url: 'https://knowzone.manatt.com',
-        key: 'cfd973d2b4b4f8f74b0cc100f6',
+        url: 'https://atrispina.stream',
+        key: '73ba7d2fb76c702df0e1ca8964',
         version: 'v3',
     },
     dev: process.env.NODE_ENV !== 'test' && process.env.NODE_ENV === 'production',
